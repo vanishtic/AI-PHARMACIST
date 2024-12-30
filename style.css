@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
